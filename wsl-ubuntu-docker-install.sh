@@ -1,5 +1,10 @@
 #!/bin/bash
-set -e
+
+# stops on errors
+# set -e
+
+# stops on hidden errors (more robust)
+set -euo pipefail 
 
 echo "🐳 Starting Docker setup for WSL..."
 
