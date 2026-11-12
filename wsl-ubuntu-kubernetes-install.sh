@@ -35,3 +35,4 @@ kubectl version --client
 kubelet --version
 
 echo "🎉 Kubernetes components installed successfully!"
+
